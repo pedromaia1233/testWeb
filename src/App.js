@@ -1,5 +1,4 @@
 import './App.css';
-import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Topbar from './components/topbar/Topbar'
 import Menu from './pages/Menu';
