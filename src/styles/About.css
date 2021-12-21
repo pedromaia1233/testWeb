@@ -1,38 +1,94 @@
 .about {
     width: 100%;
-    height: 90vh;
+    height: auto;
     display: flex;
     flex-direction: column;
   }
-  
-  .aboutTop {
+
+  .about .imageContainer {
     width: 100%;
-    height: 45%;
-    background-position: center;
+    height: 50vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: 60% 40%;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
+
+  .about .imageContainer .headerContainer {
+    width: auto;
+    margin-left: 50px;
+  }
   
-  .aboutBottom {
+  .about .imageContainer .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    height: 60px;
+    font-weight: 50;
+    color: white;
+  }
+  
+  .about .imageContainer .headerContainer p {
+    padding: 0;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+  }
+
+  
+  .about .aboutBottom {
     display: flex;
-    flex-direction: column;
-    height: 55%;
     align-items: center;
     margin-top: 50px;
   }
-  
-  .aboutBottom p {
-    width: 1200px;
-  }
-  
-  .about .aboutBottom h1 {
-    font-weight: 400;
-    font-size: 70px;
-    color: black;
-    height: 30px;
+
+  .left {
+    flex: 0.5;
+    overflow: hidden;
+ }
+  .left .imgContainer {
+    width: 700px;
+    height: 700px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    transform: translateY(-40px);
-  }
+    float: right;
+ }
+  .left .imgContainer img {
+    width: 70%;
+    height: 90%;
+ }
+  .right {
+    flex: 0.5;
+    display: relative;
+ }
+  .right .wrapper {
+    width: 60%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+  .right .wrapper h1 {
+    font-size: 60px;
+    margin: 10px 0;
+ }
+  .right .wrapper h2 {
+    font-size: 35px;
+    margin: 10px 0;
+ }
+  .right .wrapper h3 {
+    font-size: 30px;
+ }
+  .right .wrapper p {
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "Times New Roman", Times, serif;
+ }
   

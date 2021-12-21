@@ -23,7 +23,7 @@ function Contact() {
           <input name="name"  type="text" />
           <label htmlFor="email">E-mail *</label>
           <input name="email" type="email" />
-          <label htmlFor="message">O que te leva a fazer a sessão fotográfica? </label>
+          <label htmlFor="message">O que te leva a fazer a sessão fotográfica?  </label>
           <textarea
             rows="6"
             name="message"

@@ -5,6 +5,7 @@ import Menu from './pages/Menu';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+//import Footer2 from './components/Footer2';
 import { BrowserRouter as Router, Route , Routes} from "react-router-dom"
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-    </div>
+    </div> 
   );
 }
 

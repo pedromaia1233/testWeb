@@ -89,6 +89,7 @@
   form label {
     margin-bottom: 1%;
     font-size: 15px;
+    text-transform: uppercase;
   }
 
   form input {
@@ -98,7 +99,6 @@
   }
   
   form textarea {
-    margin-top: 15px;
     height: 70px;
     width: 100%;
     max-width: 700px;
