@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
+import Topbar from './components/topbar/Topbar'
 import Menu from './pages/Menu';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar />
+        <Topbar />
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route exact path="/menu" element={<Menu/>} />

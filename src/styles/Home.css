@@ -1,15 +1,68 @@
 .home {
     width: 100%;
-    height: 90vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: left;
+    flex-direction: column;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  .imageContainer {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
+
+  .secondPart {
+    padding: 2%;
+    width: 96%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .phaseContainer {
+    width:50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .phaseContainer p {
+    font-size: 35px;
+    font-style: italic;
+  }
+  
+
+  .secondPart button{
+    width: 250px;
+    height: 50px;
+    background-color: #928763;
+    color: white;
+  }
+  .secondPart button span{
+    font-size: 12px;
+  }
+
+  .secondPart button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+
   
   .headerContainer {
     width: auto;
@@ -19,17 +72,18 @@
   .headerContainer h1 {
     justify-content: center;
     align-items: center;
-    font-size: 90px;
+    font-size: 60px;
     height: 60px;
     font-weight: 50;
-    color: black;
+    color: white;
   }
   
   .headerContainer p {
     padding: 0;
-    font-size: 40px;
+    margin-left: 150px;
+    font-size: 20px;
     font-weight: lighter;
-    color: black;
+    color: white;
   }
   
   .headerContainer button {

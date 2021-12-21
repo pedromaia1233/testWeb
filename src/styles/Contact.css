@@ -1,23 +1,72 @@
 .contact {
     width: 100%;
-    height: 90vh;
+    height: auto;
     display: flex;
+    flex-direction: column;
   }
-  
-  .contact .leftSide {
-    height: 100%;
-    flex: 50%;
+
+  .contact .imageContainer {
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  .contact .imageContainer .headerContainer {
+    width: auto;
+    margin-left: 50px;
+  }
+  
+  .contact .imageContainer .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    height: 60px;
+    font-weight: 50;
+    color: white;
+  }
+  
+  .contact .imageContainer .headerContainer p {
+    padding: 0;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+  }
+
+  .contact .firstPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  .contact .firstPart h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: var(--heading-2_font-weight);
+    font-family: var(--heading-2_font-family);
+    font-style: var(--heading-2_font-style);
+    width: 700px;
+  }
+
+  .contact .firstPart p {
+    width: 700px;
+    line-height: 30px;
   }
   
   .contact .rightSide {
-    height: 100%;
-    flex: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   
   .contact .rightSide h1 {
@@ -31,25 +80,28 @@
   form {
     display: flex;
     flex-direction: column;
-    width: auto;
+    justify-content: center;
+    width: 700px;
     height: auto;
     padding: 30px;
   }
   
+  form label {
+    margin-bottom: 1%;
+    font-size: 15px;
+  }
+
   form input {
     height: 40px;
-    width: 80%;
-    border: none;
-    border-bottom: 1px solid #121619;
+    width: 100%;
     color: black;
   }
   
   form textarea {
     margin-top: 15px;
     height: 70px;
-    width: 80%;
-    border: none;
-    border-bottom: 1px solid #121619;
+    width: 100%;
+    max-width: 700px;
     color: black;
   }
   input::placeholder,
@@ -73,7 +125,8 @@
     width: 140px;
     height: 40px;
     border: none;
-    background-color: #121619;
+    background-color: #928763;
+    margin-left: 40%;
     color: whitesmoke;
     font-size: 15px;
     cursor: pointer;

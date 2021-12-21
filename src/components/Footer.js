@@ -6,10 +6,12 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../styles/Footer.css";
 
 function Footer() {
+
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
+      <a href="https://www.instagram.com/jenniferduarteph/"><InstagramIcon /></a>
+         <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
       </div>
       <p> &copy; 2021 jenniferduarteph.com</p>
     </div>
