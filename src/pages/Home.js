@@ -13,7 +13,7 @@ function Home() {
       </div>
 
       <div className="secondPart">
-        <a href="/menu" className="logo"> <button><span>VÊ AQUI O MEU PORTÓFOLIO</span></button> </a>
+        <a href="/portfolio" className="logo"> <button><span>VÊ AQUI O MEU PORTÓFOLIO</span></button> </a>
         <div className="phaseContainer">
           <p> “Para mim, a fotografia é uma arte de observação.
           Trata-se de encontrar algo interessante num lugar comum...
