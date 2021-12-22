@@ -1,7 +1,7 @@
 import React from "react";
 import BannerImage3 from "../assets/home3.jpg";
 import "../styles/Home.css";
-import { useEffect, useState  } from "react"
+import { useEffect, useState } from "react"
 
 function Home() {
   const [counter, setCounter] = useState(1);

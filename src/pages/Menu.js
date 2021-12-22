@@ -23,22 +23,22 @@ function Menu() {
   function routeChange (title) {
     var route = "/portfolio/";
     switch (title) {
-      case "Retrato Feminino":
+      case "RETRATO FEMININO":
         route += "feminino"
         break;
-      case "Retrato Intimista":
+      case "RETRATO INTIMISTA":
         route += "intimista"
         break;
-      case "Marcas":
+      case "MARCAS":
         route += "marcas"
         break;
-      case "Casais":
+      case "CASAIS":
         route += "casais"
         break;
-      case "Eventos":
+      case "EVENTOS":
         route += "eventos"
         break;
-      case "Retrato Masculino":
+      case "RETRATO MASCULINO":
         route += "masculino"
         break;
       default:
@@ -57,11 +57,11 @@ function Menu() {
       <h1 className="menuTitle">BEM-VINDOS</h1>
       <div className="container">
         {data.map(d => (
-          (d.title==="Eventos" || d.title === "Retrato Masculino" ?
+          (d.title==="EVENTOS" || d.title === "RETRATO MASCULINO" ?
           <div className="itemMenor" onClick={() => routeChange.bind(this)(d.title)}>
               <img src={d.img} alt="" />
               <h3>{d.title}</h3>
-              {d.title==="Eventos" &&
+              {d.title==="EVENTOS" && 
               <h4>BATIZADOS | ESTUDANTES | BAILES FINALISTAS</h4>}
           </div> 
           : 
