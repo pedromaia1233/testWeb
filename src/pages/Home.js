@@ -1,9 +1,7 @@
 import React from "react";
-import BannerImage1 from "../assets/introImage1.jpg";
-import BannerImage2 from "../assets/home2.jpg";
 import BannerImage3 from "../assets/home3.jpg";
 import "../styles/Home.css";
-import { useEffect, useState, useLayoutEffect  } from "react"
+import { useEffect, useState  } from "react"
 
 function Home() {
   const [counter, setCounter] = useState(1);
@@ -36,7 +34,7 @@ function Home() {
     }
   }
 
-  useLayoutEffect(()=> {
+  useEffect(()=> {
     setTimeout(() => {changeBack(counter)} , 4000);
   },[counter])
 
