@@ -11,9 +11,9 @@ function PortfolioImages({title, featuredPortfolio}) {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="containerImages">
                 {featuredPortfolio.map(d => (
-                    <div className="item" style={{width: d.width, height: d.height}}>
+                    <div className="itemShow" style={{width: d.width, height: d.height}}>
                         <img src={d.img} alt="" />
                     </div>
                 ))}
