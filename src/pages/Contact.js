@@ -1,21 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/Contact.css";
 import BannerImage from "../assets/contactme.jpg";
+import { useNavigate } from 'react-router-dom';
 import emailjs from "emailjs-com";
 
 function Contact() {
+  const [message, setMessage] = useState(false);
+  const navigate = useNavigate()
 
   const SERVICE_ID = "service_zql439p";
   const TEMPLATE_ID = "template_kslxc2r";
   const USER_ID = "user_r3dhsYANHtp7dxNJuQaXD";
 
+  const afterSubmit = () =>{ 
+    setMessage(false);
+    navigate("/");
+  }
+
+
   const handleOnSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
       .then((result) => {
-        console.log(result.text);
+        console.log(result.text); 
       });
     e.target.reset()
+    setMessage(true);
+    setTimeout(() => {afterSubmit()} , 2000);
   };
 
   return (
@@ -46,6 +57,7 @@ function Contact() {
           <label htmlFor="name">Qual a dispibilidade/data requerida? *</label>
           <input name="disponibilidade"  type="text" />
           <button type="submit"> Enviar</button>
+          {message && <span>Enviado com sucesso</span>}
         </form>
       </div>
     </div>

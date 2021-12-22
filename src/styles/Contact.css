@@ -131,4 +131,10 @@
     font-size: 15px;
     cursor: pointer;
   }
+
+  form span {
+    margin: 50px 0px;
+    font-size: 20px;
+    color: green;
+}
   
