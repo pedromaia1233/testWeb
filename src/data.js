@@ -138,3 +138,204 @@ export const featuredPortfolio = [
     }
     
   ];
+
+  export const retratoIntimista = [
+    {
+      id: 1,
+      img:
+        "https://images-pw.pixieset.com/elementfield/22219295/4D7A4175-abc0005f.jpg",
+      width: "376px",
+      height: "470px"
+    },
+    {
+      id: 2,
+      img:
+        "//images-pw.pixieset.com/elementfield/22219295/4D7A4206-597782ac.jpg",
+        width: "376px",
+        height: "280px"
+    },
+    {
+      id: 3,
+      img:
+        "//images-pw.pixieset.com/elementfield/22219295/4D7A3823-b3624762.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 4,
+      img:
+        "//images-pw.pixieset.com/elementfield/22219295/4D7A3772-2749ecdc.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 5,
+      img:
+        "//images-pw.pixieset.com/elementfield/22219295/4D7A3829-39da836f.jpg",
+        width: "376px",
+        height: "280px"
+    },
+    {
+      id: 6,
+      img:
+        "//images-pw.pixieset.com/elementfield/22219295/4D7A3722-98869446.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 7,
+      img:
+        "//images-pw.pixieset.com/elementfield/22219295/4D7A4482-0447dae0.jpg",
+        width: "376px",
+        height: "470px"
+    }
+  ];
+
+  export const marcas = [
+    {
+      id: 1,
+      img:
+        "//images-pw.pixieset.com/elementfield/160810421/4D7A0031-9605708b.jpg",
+      width: "376px",
+      height: "470px"
+    },
+    {
+      id: 2,
+      img:
+        "//images-pw.pixieset.com/elementfield/160810421/4D7A0033-32907185.jpg",
+        width: "376px",
+      height: "470px"
+    },
+    {
+      id: 3,
+      img:
+        "//images-pw.pixieset.com/elementfield/160810421/4D7A0101-f710afab.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 4,
+      img:
+        "//images-pw.pixieset.com/elementfield/160810421/4D7A0230-889ab283.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 5,
+      img:
+        "//images-pw.pixieset.com/elementfield/160810421/4D7A0257-db842b13.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 6,
+      img:
+        "//images-pw.pixieset.com/elementfield/160810421/4D7A0280-8a5e407a.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 7,
+      img:
+        "//images-pw.pixieset.com/elementfield/160810421/4D7A0332-cf5b897f.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 8,
+      img:
+        "//images-pw.pixieset.com/elementfield/160810421/4D7A0354-405f498f.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 9,
+      img:
+        "//images-pw.pixieset.com/elementfield/160810421/4D7A0342-02d4c4af.jpg",
+        width: "376px",
+        height: "470px"
+    }
+  ];
+
+  export const casais = [
+    {
+      id: 1,
+      img:
+        "//images-pw.pixieset.com/elementfield/330799321/4D7A0074PB-154e90b3.jpg",
+      width: "376px",
+      height: "470px"
+    },
+    {
+      id: 2,
+      img:
+        "//images-pw.pixieset.com/elementfield/330799321/IMG_6015-8e2d45fe.jpg",
+        width: "376px",
+        height: "280px"
+    },
+    {
+      id: 3,
+      img:
+        "//images-pw.pixieset.com/elementfield/330799321/ANA_SOFIA_E_DIOGO_2-84547b55.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 4,
+      img:
+        "//images-pw.pixieset.com/elementfield/330799321/IMG_6036-Editar-6a424019.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 5,
+      img:
+        "//images-pw.pixieset.com/elementfield/330799321/IMG_6032-f6ce40e3.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 6,
+      img:
+        "//images-pw.pixieset.com/elementfield/330799321/4D7A0017-b57155cc.jpg",
+        width: "376px",
+        height: "470px"
+    }
+  ];
+
+  export const masculino = [
+    {
+      id: 1,
+      img:
+        "//images-pw.pixieset.com/elementfield/72219295/XAVIER_21-69a283f8.jpg",
+      width: "376px",
+      height: "470px"
+    },
+    {
+      id: 2,
+      img:
+        "//images-pw.pixieset.com/elementfield/72219295/XAVIER_11-9b15010b.jpg",
+        width: "376px",
+        height: "280px"
+    },
+    {
+      id: 3,
+      img:
+        "//images-pw.pixieset.com/elementfield/72219295/4D7A5312-255c9126.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 4,
+      img:
+        "//images-pw.pixieset.com/elementfield/72219295/4D7A5467-28ddd1cd.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 5,
+      img:
+        "//images-pw.pixieset.com/elementfield/72219295/4D7A5221-a5922149.jpg",
+        width: "376px",
+        height: "470px"
+    }
+  ];
