@@ -5,6 +5,7 @@ import Menu from './pages/Menu';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import PortfolioImages from './pages/PortfolioImages';
+import PortfolioImagesEvento from './pages/PortfolioImageEvento';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 //import Footer2 from './components/Footer2';
@@ -31,7 +32,7 @@ function App() {
           <Route exact path="/portfolio/intimista" element={<PortfolioImages title={"Retrato Intimista"} featuredPortfolio={retratoIntimista}/>} />
           <Route exact path="/portfolio/casais" element={<PortfolioImages title={"Casais"} featuredPortfolio={casais}/>} />
           <Route exact path="/portfolio/marcas" element={<PortfolioImages title={"Marcas"} featuredPortfolio={marcas}/>} />
-          <Route exact path="/portfolio/eventos" element={<PortfolioImages title={"Eventos"} featuredPortfolio={retratoFeminino}/>} />
+          <Route exact path="/portfolio/eventos" element={<PortfolioImagesEvento title={"Eventos"} featuredPortfolio={retratoFeminino}/>} />
           <Route exact path="/portfolio/masculino" element={<PortfolioImages title={"Retrato Masculino"} featuredPortfolio={masculino}/>} />
         </Routes>
         <Footer />

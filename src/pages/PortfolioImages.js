@@ -2,7 +2,6 @@ import React from 'react'
 import BannerImage from "../assets/portfoliophoto.jpg";
 import "../styles/PortfolioImages.css";
 
-
 function PortfolioImages({title, featuredPortfolio}) {
     return (
         <div className='portfolioImages'>

@@ -1,0 +1,60 @@
+.portfolioImageEvento {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .portfolioImageEvento .imageContainer {
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-position: 60% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-bottom: 3%;
+  }
+
+  .portfolioImageEvento .imageContainer .headerContainer {
+    width: auto;
+    margin-left: 50px;
+  }
+  
+  .portfolioImageEvento .imageContainer .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    height: 60px;
+    font-weight: 50;
+    color: white;
+  }
+  
+  .portfolioImageEvento .imageContainer .headerContainer p {
+    padding: 0;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+  }
+
+  .portfolioImageEvento .itemSlider{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }  
+
+ .portfolioImageEvento .itemSlider .title {
+   width: 60%;
+   display: flex;
+   align-items: center;
+    justify-content: center;
+ }  
+ 
