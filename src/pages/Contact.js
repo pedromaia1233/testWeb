@@ -1,8 +1,23 @@
 import React from "react";
 import "../styles/Contact.css";
 import BannerImage from "../assets/contactme.jpg";
+import emailjs from "emailjs-com";
 
 function Contact() {
+
+  const SERVICE_ID = "service_zql439p";
+  const TEMPLATE_ID = "template_kslxc2r";
+  const USER_ID = "user_r3dhsYANHtp7dxNJuQaXD";
+
+  const handleOnSubmit = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+      .then((result) => {
+        console.log(result.text);
+      });
+    e.target.reset()
+  };
+
   return (
     <div className="contact">
       <div className="imageContainer" style={{ backgroundImage: `url(${BannerImage})` }}>
@@ -18,19 +33,18 @@ function Contact() {
       </div>
 
       <div className="rightSide"> 
-        <form id="contact-form" method="POST">
-          <label htmlFor="name">NOME: *</label>
-          <input name="name"  type="text" />
-          <label htmlFor="email">E-mail *</label>
-          <input name="email" type="email" />
+        <form id="contact-form" method="POST" onSubmit={handleOnSubmit}>
+          <label htmlFor="name" >NOME: *</label>
+          <input name="name"  type="text" required />
+          <label htmlFor="email" >E-mail *</label>
+          <input name="email" type="email" required />
           <label htmlFor="message">O que te leva a fazer a sessão fotográfica?  </label>
           <textarea
             rows="6"
             name="message"
-            required
           ></textarea>
           <label htmlFor="name">Qual a dispibilidade/data requerida? *</label>
-          <input name="name"  type="text" />
+          <input name="disponibilidade"  type="text" />
           <button type="submit"> Enviar</button>
         </form>
       </div>
