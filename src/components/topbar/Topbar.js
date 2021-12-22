@@ -16,6 +16,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                 <div className="right">
                     <Link to="/"> Início </Link>
                     <Link to="/portfolio"> Portfolio </Link>
+                    <Link to="/testemunhos"> Testemunhos </Link>
                     <Link to="/about"> Sobre </Link>
                     <Link to="/contact"> Contacto </Link>
                 </div>

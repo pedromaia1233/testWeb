@@ -4,6 +4,7 @@ import Topbar from './components/topbar/Topbar'
 import Menu from './pages/Menu';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Testemunhos from './pages/Testemunhos';
 import PortfolioImages from './pages/PortfolioImages';
 import PortfolioImagesEvento from './pages/PortfolioImageEvento';
 import Footer from './components/Footer';
@@ -26,6 +27,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route exact path="/portfolio" element={<Menu/>} />
+          <Route exact path="/testemunhos" element={<Testemunhos/>} />
           <Route exact path="/about" element={<About/>} />
           <Route exact path="/contact" element={<Contact/>} />
           <Route exact path="/portfolio/feminino" element={<PortfolioImages title={"Retrato Feminino"} featuredPortfolio={retratoFeminino}/>} />
