@@ -11,7 +11,9 @@ function Footer() {
     <div className="footer">
       <div className="socialMedia">
       <a href="https://www.instagram.com/jenniferduarteph/"><InstagramIcon /></a>
-         <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
+      <a href="https://www.facebook.com/jenniferduartephotography"><FacebookIcon /></a>
+         <TwitterIcon/> 
+         <LinkedInIcon />
       </div>
       <p> &copy; 2021 jenniferduarteph.com</p>
     </div>
