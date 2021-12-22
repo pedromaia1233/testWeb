@@ -100,5 +100,41 @@ export const featuredPortfolio = [
         "https://images-pw.pixieset.com/elementfield/989579321/4D7A0423-b810d194.jpg",
         width: "376px",
         height: "470px"
+    },
+    {
+      id: 10,
+      img:
+        "https://images-pw.pixieset.com/elementfield/989579321/4D7A7252-Editar-8db30a90.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 11,
+      img:
+        "https://images-pw.pixieset.com/elementfield/989579321/ANA_GUERREIRO_17-9f85065d.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 12,
+      img:
+        "https://images-pw.pixieset.com/elementfield/989579321/INES_SINTRA_3-adc3bbc3.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 13,
+      img:
+        "https://images-pw.pixieset.com/elementfield/989579321/INES_SINTRA_4-e869f834.jpg",
+        width: "376px",
+        height: "470px"
+    },
+    {
+      id: 14,
+      img:
+        "https://images-pw.pixieset.com/elementfield/989579321/BEA_FIG_1-ee6d4294.jpg",
+        width: "376px",
+        height: "470px"
     }
+    
   ];
