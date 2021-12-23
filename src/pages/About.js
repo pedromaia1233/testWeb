@@ -8,8 +8,7 @@ function About() {
       <div className="imageContainer" style={{ backgroundImage: `url(${BannerImage})`}}>
         <div className="headerContainer">
           <h1> SOBRE MIM </h1>
-      </div>
-
+        </div>
       </div>
       <div className="aboutBottom">
         <div className="left">

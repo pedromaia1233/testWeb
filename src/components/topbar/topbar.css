@@ -61,6 +61,33 @@
     margin: 25px;
   }
 
+  @media only screen and (max-width: 650px) {
+    .topbar {
+        width: 100%;
+        margin-top: 10px;
+        overflow-x: hidden;
+    }
+
+    .topbar .wrapper {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        height: auto;
+    }
+
+    .topbar .wrapper .left {
+        display: none;
+    }
+
+    .topbar .wrapper .right {
+        align-items: center;
+        justify-content: center;
+        display:table;
+        padding-top: 20px;
+    }
+  }
+
 
 
 

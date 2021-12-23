@@ -33,14 +33,6 @@
     font-weight: 50;
     color: white;
   }
-  
-  .portfolioImages .imageContainer .headerContainer p {
-    padding: 0;
-    margin-left: 50px;
-    font-size: 20px;
-    font-weight: lighter;
-    color: white;
-  }
 
   .portfolioImages .containerImages {
     width: 70%;
@@ -110,39 +102,28 @@
   z-index: 0;
 }
 
-.containerAdd .itemMenor {
-width: 540px;
-height: 405px;
-border: 1px solid lightgrey;
-margin: 10px 20px;
-display: flex;
-align-items: center;
-justify-content: center;
-color: white;
-position: relative;
-transition: all 0.5s ease;
-cursor: pointer;
-}
-.containerAdd .itemMenor h3 {
-position: absolute;
-font-size: 20px;
-}
+@media only screen and (max-width: 650px) {
+  .portfolioImages {
+    justify-content: center;
+    align-items: center;
+  }
 
-.containerAdd .itemMenor h4 {
-position: absolute;
-bottom: 50px;
-font-size: 20px;
-}
-.containerAdd .itemMenor img {
-width: 100%;
-height: 100%;
-object-fit: color;
-z-index: 1;
-}
-.containerAdd .itemMenor:hover {
-background-color: #363331;
-}
-.containerAdd .itemMenor:hover img {
-opacity: 0.2;
-z-index: 0;
+  .portfolioImages .imageContainer {
+    height: 50vh;
+  }
+
+  .portfolioImages .imageContainer .headerContainer h1{
+    font-size: 30px;
+    margin-right: 40px;
+  }
+
+  .containerAdd .item {
+    width: 540px;
+    height: 200px;
+  }
+  .containerAdd .item h3 {
+    position: absolute;
+    font-size: 15px;
+  }
+  
 }

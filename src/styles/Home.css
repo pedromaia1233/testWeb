@@ -111,41 +111,45 @@
     .home {
       justify-content: center;
       align-items: center;
+      overflow-x: hidden;
     }
   
     .headerContainer {
       margin-left: 0px;
       border-radius: 10px;
       padding: 10px;
-      width: 80%;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      background-color: #121619;
       color: white;
     }
   
     .headerContainer h1 {
-      font-size: 40px;
+      font-size: 30px;
       height: 30px;
       color: white;
     }
   
     .headerContainer p {
-      font-size: 30px;
+      font-size: 10px;
       color: white;
     }
   
-    .headerContainer button {
-      background-color: white;
-      color: #121619;
-      margin-bottom: 30px;
+    .secondPart .phaseContainer p {
+      font-size: 20px;
+    }
+
+    .secondPart .phaseContainer span {
+      font-size: 10px;
+      margin-bottom: 10px;
     }
   
     .headerContainer button:hover {
       background-color: rgb(225, 225, 225);
       color: #121619;
     }
+    
   }
   

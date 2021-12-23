@@ -1,12 +1,15 @@
 import "./topbar.css"
 import { Mail} from '@material-ui/icons';
 import { Link } from "react-router-dom";
+import ReorderIcon from "@material-ui/icons/Reorder";
+import { useState } from "react";
 
 export default function Topbar({menuOpen, setMenuOpen}) {
+
     return (
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
-                <div className="left">
+            <div className="left">
                     <a href="/" className="logo">JD PH</a>
                     <div className="itemContainer">
                         <Mail className="icon"/>

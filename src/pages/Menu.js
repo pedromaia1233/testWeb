@@ -10,11 +10,17 @@ import { useNavigate } from 'react-router-dom';
 
 function Menu() {
     //const [selected, setSelected] = useState("retratoF")
-    const [data, setData] = useState([])
+    const [data, setData] = useState(featuredPortfolio)
 
     useEffect(()=> {
-      setData(featuredPortfolio)
-  },[])
+      const dataAux = localStorage.getItem('tipos-retratos');
+      if(dataAux)
+        setData(JSON.parse(dataAux))
+    },[])
+
+    useEffect(()=> {
+      localStorage.setItem('tipos-retratos', JSON.stringify(data))
+    })
 
 
   const navigate = useNavigate()
