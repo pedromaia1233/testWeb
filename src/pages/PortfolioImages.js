@@ -10,6 +10,7 @@ import { useNavigate } from 'react-router-dom';
 
 function PortfolioImages({title, featuredPortfolioAux}) {
     const [data, setData] = useState(featuredPortfolio)
+    const [widthWindow, setWidthWindow] = useState(featuredPortfolio)
 
     useEffect(()=> {
         console.log(title);
@@ -68,6 +69,31 @@ const navigate = useNavigate()
     navigate(route)
   }
 
+  window.onresize = function() {    
+    var widthWin = window.document.body.clientWidth;
+    setWidthWindow(widthWin)
+}
+
+  function changeHeigth (heigth) {
+    var newHeigth = heigth;
+    var windowSize = widthWindow;
+    if(windowSize <= 650 && heigth==="470px"){
+        newHeigth= "300px"
+    }
+    else if(windowSize <= 650 && heigth==="280px"){
+      newHeigth= "200px"
+    } 
+    else if (windowSize > 650 && heigth==="200px") {
+      newHeigth= "280px"
+    }
+    else if (windowSize > 650 && heigth==="300px") {
+      newHeigth= "470px"
+    }
+
+    return newHeigth;
+  }
+
+
     return (
         <div className='portfolioImages'>
             <div className="imageContainer" style={{ backgroundImage: `url(${BannerImage})`}}>
@@ -78,7 +104,7 @@ const navigate = useNavigate()
 
             <div className="containerImages">
                 {featuredPortfolioAux.map(d => (
-                    <div className="itemShow" style={{width: d.width, height: d.height}}>
+                    <div className="itemShow" style={{width: d.width, height: changeHeigth(d.height)}}>
                         <img src={d.img} alt="" />
                     </div>
                 ))}
