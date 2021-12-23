@@ -56,5 +56,84 @@
    display: flex;
    align-items: center;
     justify-content: center;
- }  
+ }
+ .portfolioImages .menuTitleAddEvent {
+  margin-top: 3%;
+}
+
+.containerAddEvent {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.containerAddEvent .item {
+  width: 376px;
+  height: 470px;
+  border: 1px solid lightgrey;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.containerAddEvent .item h3 {
+  position: absolute;
+  font-size: 20px;
+}
+.containerAddEvent .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: color;
+  /*z-index: 1;*/
+}
+
+.containerAddEvent .item:hover {
+  background-color: #363331;
+}
+.containerAddEvent .item:hover img {
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.containerAddEvent .itemMenor {
+width: 540px;
+height: 405px;
+border: 1px solid lightgrey;
+margin: 10px 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+position: relative;
+transition: all 0.5s ease;
+cursor: pointer;
+}
+.containerAddEvent .itemMenor h3 {
+position: absolute;
+font-size: 20px;
+}
+
+.containerAddEvent .itemMenor h4 {
+position: absolute;
+bottom: 50px;
+font-size: 20px;
+}
+.containerAddEvent .itemMenor img {
+width: 100%;
+height: 100%;
+object-fit: color;
+z-index: 1;
+}
+.containerAddEvent .itemMenor:hover {
+background-color: #363331;
+}
+.containerAddEvent .itemMenor:hover img {
+opacity: 0.2;
+z-index: 0;
+}
  

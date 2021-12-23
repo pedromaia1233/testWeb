@@ -30,12 +30,12 @@ function App() {
           <Route exact path="/testemunhos" element={<Testemunhos/>} />
           <Route exact path="/about" element={<About/>} />
           <Route exact path="/contact" element={<Contact/>} />
-          <Route exact path="/portfolio/feminino" element={<PortfolioImages title={"Retrato Feminino"} featuredPortfolio={retratoFeminino}/>} />
-          <Route exact path="/portfolio/intimista" element={<PortfolioImages title={"Retrato Intimista"} featuredPortfolio={retratoIntimista}/>} />
-          <Route exact path="/portfolio/casais" element={<PortfolioImages title={"Casais"} featuredPortfolio={casais}/>} />
-          <Route exact path="/portfolio/marcas" element={<PortfolioImages title={"Marcas"} featuredPortfolio={marcas}/>} />
-          <Route exact path="/portfolio/eventos" element={<PortfolioImagesEvento title={"Eventos"} featuredPortfolio={retratoFeminino}/>} />
-          <Route exact path="/portfolio/masculino" element={<PortfolioImages title={"Retrato Masculino"} featuredPortfolio={masculino}/>} />
+          <Route exact path="/portfolio/feminino" element={<PortfolioImages title={"Retrato Feminino"} featuredPortfolioAux={retratoFeminino}/>} />
+          <Route exact path="/portfolio/intimista" element={<PortfolioImages title={"Retrato Intimista"} featuredPortfolioAux={retratoIntimista}/>} />
+          <Route exact path="/portfolio/casais" element={<PortfolioImages title={"Casais"} featuredPortfolioAux={casais}/>} />
+          <Route exact path="/portfolio/marcas" element={<PortfolioImages title={"Marcas"} featuredPortfolioAux={marcas}/>} />
+          <Route exact path="/portfolio/eventos" element={<PortfolioImagesEvento title={"Eventos"} featuredPortfolioAux={retratoFeminino}/>} />
+          <Route exact path="/portfolio/masculino" element={<PortfolioImages title={"Retrato Masculino"} featuredPortfolioAux={masculino}/>} />
         </Routes>
         <Footer />
       </Router>

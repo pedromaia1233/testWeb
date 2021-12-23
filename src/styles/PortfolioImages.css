@@ -66,3 +66,83 @@
     object-fit: color;
     z-index: 1;
  }
+
+ .portfolioImages .menuTitleAdd {
+  margin-top: 8%;
+}
+
+.containerAdd {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.containerAdd .item {
+  width: 376px;
+  height: 470px;
+  border: 1px solid lightgrey;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.containerAdd .item h3 {
+  position: absolute;
+  font-size: 20px;
+}
+.containerAdd .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: color;
+  /*z-index: 1;*/
+}
+
+.containerAdd .item:hover {
+  background-color: #363331;
+}
+.containerAdd .item:hover img {
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.containerAdd .itemMenor {
+width: 540px;
+height: 405px;
+border: 1px solid lightgrey;
+margin: 10px 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+position: relative;
+transition: all 0.5s ease;
+cursor: pointer;
+}
+.containerAdd .itemMenor h3 {
+position: absolute;
+font-size: 20px;
+}
+
+.containerAdd .itemMenor h4 {
+position: absolute;
+bottom: 50px;
+font-size: 20px;
+}
+.containerAdd .itemMenor img {
+width: 100%;
+height: 100%;
+object-fit: color;
+z-index: 1;
+}
+.containerAdd .itemMenor:hover {
+background-color: #363331;
+}
+.containerAdd .itemMenor:hover img {
+opacity: 0.2;
+z-index: 0;
+}
