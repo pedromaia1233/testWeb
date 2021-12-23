@@ -1,8 +1,6 @@
 import "./topbar.css"
 import { Mail} from '@material-ui/icons';
 import { Link } from "react-router-dom";
-import ReorderIcon from "@material-ui/icons/Reorder";
-import { useState } from "react";
 
 export default function Topbar({menuOpen, setMenuOpen}) {
 
