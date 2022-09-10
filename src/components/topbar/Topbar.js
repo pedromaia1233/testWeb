@@ -1,6 +1,7 @@
 import "./topbar.css"
 import { Mail} from '@material-ui/icons';
 import { Link } from "react-router-dom";
+import Logo from "../../assets/logo.png";
 
 export default function Topbar({menuOpen, setMenuOpen}) {
 
@@ -8,10 +9,9 @@ export default function Topbar({menuOpen, setMenuOpen}) {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
             <div className="left">
-                    <a href="/" className="logo">JD PH</a>
+            
                     <div className="itemContainer">
-                        <Mail className="icon"/>
-                        <span>jenniferduarteph@gmail.com</span>
+                    <Link to="/"><img src={Logo} className="icon" alt=""/></Link>
                     </div>
                 </div>
                 <div className="right">
