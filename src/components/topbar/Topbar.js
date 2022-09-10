@@ -1,5 +1,4 @@
 import "./topbar.css"
-import { Mail} from '@material-ui/icons';
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo.png";
 
